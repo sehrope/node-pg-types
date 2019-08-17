@@ -6,4 +6,4 @@ matrix:
   include:
     - name: 'Code Coverage'
       node_js: 'stable'
-      script: 'npx nyc --reporter=lcov npm test && npx codecov'
+      script: 'nyc --reporter=lcov npm test && codecov'
