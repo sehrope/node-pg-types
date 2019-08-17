@@ -7,5 +7,3 @@ matrix:
     - name: 'Code Coverage'
       node_js: 'stable'
       script: 'npx nyc --reporter=lcov npm test && npx codecov'
-env:
-  - PGUSER=postgres
